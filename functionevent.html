@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Submission
+        
+    </title>
+</head>
+<body>
+    <form id="myForm">
+        <input type="text" name="username" placeholder="Username">
+        <input type="password" name="password" placeholder="Password">
+        <button type="submit">Submit</button>
+    </form>
+
+    <script>
+        // Get the form element by its ID
+        const myForm = document.getElementById('myForm');
+
+        // Add a submit event listener to the form
+        myForm.addEventListener('submit', function(event) {
+            event.preventDefault(); // Prevent the form from submitting normally
+
+            // Access form data
+            const formData = new FormData(myForm);
+            for (const [key, value] of formData.entries()) {
+                console.log(${key}  : ${value});
+            }
+        });
+    </script>
+</body>
+</html>
