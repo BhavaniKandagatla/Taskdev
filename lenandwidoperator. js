@@ -1,0 +1,11 @@
+// Prompt user to enter length and width
+var length = parseFloat(prompt("Enter the length of the rectangle:"));
+var width = parseFloat(prompt("Enter the width of the rectangle:"));
+
+// Calculate the area
+var area = length * width;
+
+// Display the result
+console.log("Given length is:",length);
+console.log("Given width is:",width);
+console.log("The area of the rectangle is:", area);
