@@ -97,6 +97,47 @@ Exlained output in the program
 
 Output: undefined
 
+•	DOM Manipulation: 
+
+1) Write a JavaScript code to change the text color of an element with id "myElement" to red.
+
+
+   Output:Bhavani in red color
+   
+2) Implement a function to toggle a class "active" on a button element when clicked.
+  
+      Output:Click the "Try it" button to toggle between adding and removing the "mystyle" class name of the DIV element:
+
+      Try it
+
+      After clicking try it the font style changes
+
+      Myself Bhavani Kandagatla
+      
+ 
+ 
+•	Events: 
+
+
+1) Write a JavaScript code to log "Button clicked!" when a button with id "myButton" is clicked.
+
+   Output: Click me
+
+
+   Button clicked!
+   
+2) Create a function to prevent the default behavior of a 
+form submission and instead log the form data to the console.
+
+Output: Username 
+
+Password
+
+Submit
+
+
+
+
 •	Asynchronous JavaScript: 
 
 1)	Write a function that takes a callback and calls it after 3 seconds.
